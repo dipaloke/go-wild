@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+        <div id="navigation">
+            <img id="logo" src="bird logo.png" alt="go_wild">
+            <ul>
+                <li>
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="survey.html">Survey</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <header class="header">
+              <h1 id="title" class="text-center">Birds BD Survey Form</h1>
+              <p id="description" class="description text-center">
+                Thank you for taking the time to help us improve the platform
+              </p>
+            </header>
+            <form id="survey-form">
+              <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-control"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label id="number-label" for="number"
+                  >Age<span class="clue">(optional)</span></label
+                >
+                <input
+                  type="number"
+                  name="age"
+                  id="number"
+                  min="10"
+                  max="99"
+                  class="form-control"
+                  placeholder="Age"
+                />
+              </div>
+              <div class="form-group">
+                <p>Which option best describes your current role?</p>
+                <select id="dropdown" name="role" class="form-control" required>
+                  <option disabled selected value>Select current role</option>
+                  <option value="student">Student</option>
+                  <option value="job">Full Time Job</option>
+                  <option value="learner">Full Time Learner</option>
+                  <option value="preferNo">Prefer not to say</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label>
+                  <input
+                    name="user-recommend"
+                    value="definitely"
+                    type="radio"
+                    class="input-radio"
+                    checked
+                  />Definitely</label
+                >
+                <label>
+                  <input
+                    name="user-recommend"
+                    value="maybe"
+                    type="radio"
+                    class="input-radio"
+                  />Maybe</label
+                >
+
+                <label
+                  ><input
+                    name="user-recommend"
+                    value="not-sure"
+                    type="radio"
+                    class="input-radio"
+                  />Not sure</label
+                >
+              </div>
+
+              <div class="form-group">
+                <p>
+                  What can we do to serve you more?
+                </p>
+                <select id="most-like" name="mostLike" class="form-control" required>
+                  <option disabled selected value>Select an option</option>
+                  <option value="challenges">Add more birds</option>
+                  <option value="projects">Add pictures</option>
+                  <option value="community">Add Community support</option>
+                  <option value="openSource">Add more articles</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <p>
+                  Which Bangladeshi birds are your fevourite?
+                  <span class="clue">(Check all the birds you like)</span>
+                </p>
+
+                <label
+                  ><input
+                    name="prefer"
+                    value="Oriental magpie-robin"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Oriental magpie-robin</label
+                >
+                <label>
+                  <input
+                    name="prefer"
+                    value="Common kingfisher"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Common kingfisher</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="Greater coucal"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Greater coucal</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="Asian openbill"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Asian openbill</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="Black drongo"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Black drongo</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="Yellow-footed green pigeon"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Yellow-footed green pigeon</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="Indian pond heron"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Indian pond heron</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="Pheasant-tailed jacana"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Pheasant-tailed jacana</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="Purple sunbird"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Purple sunbird</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="Red-vented bulbul"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Red-vented bulbul</label
+                >
+                <label
+                  ><input
+                    name="prefer"
+                    value="White-rumped shama"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />White-rumped shama</label
+                >
+              </div>
+
+              <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea
+                  id="comments"
+                  class="input-textarea"
+                  name="comment"
+                  placeholder="Enter your comment here..."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+
+    </main>
+  </body>
+</html>
