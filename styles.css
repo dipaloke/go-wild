@@ -52,6 +52,7 @@ nav li{
  padding: 10px 10px;
  cursor:pointer;
  color: #003f5c;
+ font-size: 1.4rem;
  font-weight: 600;
 }
 .nav-link:hover{
@@ -127,14 +128,13 @@ div h2{
 
 /*Survay form*/
 #container{
-
     margin: 20px 50px;
     padding: 30px;
     background-color: #1b1b3223;
-    color: #f5f6f7;
+    color: #ffffff;
     font-family: Tahoma;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 500;
 }
 #survey-form {
 
@@ -187,3 +187,61 @@ fieldset{
   }
 
   /*Resources*/
+  #websites{
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 20px;
+  }
+  #websites li{
+    list-style: none;
+    margin: 10px;
+  }
+  .web-link{
+
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border:2px solid #003f5c;
+    padding: 10px;
+    color: #003f5c;
+  }
+  .web-link:hover{
+    font-weight: 1000;
+    color: #ff6361;
+  }
+
+  /*Gallery*/
+
+  #bird-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+  }
+  figure{
+    background-color: #003f5c27;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 5%;
+
+  }
+  figure header{
+    font-size: 20px;
+    font-weight: 700;
+    color: #003f5c;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  figcaption{
+    font-size: 15px;
+    font-style: italic;
+  }
+
+.bird-pic{
+    max-width: 100%;
+    width:  100%;
+    height: 300px;
+    object-fit: fill;
+    margin-bottom: 10px;
+}
