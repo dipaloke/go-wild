@@ -1,0 +1,64 @@
+
+html,body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 10px;
+padding: 10px;
+min-width: 290px;
+background-color: #8EC7D2;
+color: #2c0605;
+line-height: 1.5;
+
+}
+#page_name{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #ff6361;
+    border: 4px solid;
+}
+nav{
+    display: inline-block;
+    width: 100%;
+    min-width: 290px;
+    border-bottom: solid #ff6361;
+    border-top: solid #ff6361;
+
+}
+
+#navigation{
+    display: inline-block;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    margin:10px 0;
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+
+}
+.nav-link{
+ text-decoration: none;
+ padding: 10px 10px;
+ cursor:pointer;
+ color: #003f5c;
+ font-weight: 600;
+}
+.nav-link:hover{
+    font-weight: 1000;
+    color: #ff6361;
+}
+header{
+    color:black;
+    font-weight: 1500;
+    text-align: left;
+    margin-top: 10px;
+
+}

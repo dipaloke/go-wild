@@ -1,2 +1,2 @@
-# go-wild
-A website to showcase beautiful wildlife.
+# Birds BD
+A website to showcase beautiful birds of Bangladesh.
